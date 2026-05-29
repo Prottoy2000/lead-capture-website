@@ -20,7 +20,7 @@
         email: document.getElementById('email').value,
         phone: document.getElementById('phone').value
       };
-      await fetch('https://n8n-4vfs.onrender.com/webhook/lead-capture', {
+      await fetch('https://n8n-4vfs.onrender.com/webhook-test/lead-capture', {
         method: 'POST',
         headers: {'Content-Type': 'application/json'},
         body: JSON.stringify(data)
